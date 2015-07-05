@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings name="parallel" xmlns="urn:mathworks.matlab.settings" xsi:schemaLocation="urn:mathworks.matlab.settings settings.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <settings name="profiles">
+        <settings name="DTU_Torque" visible="true">
+            <key name="Description" visible="true">
+                <string>
+                    <value><![CDATA[DTU Torque]]></value>
+                </string>
+            </key>
+            <key name="ProjectComponent" visible="true" anytype="true">
+            </key>
+            <key name="SchedulerComponent" visible="true">
+                <string>
+                    <value><![CDATA[TorqueProfile1SchedulerComponent]]></value>
+                </string>
+            </key>
+        </settings>
+    </settings>
+    <settings name="schedulercomponents">
+        <settings name="Torque" visible="true">
+            <settings name="TorqueProfile1SchedulerComponent" visible="true">
+                <key name="ClusterMatlabRoot" visible="true" anytype="true">
+                </key>
+                <key name="CommunicatingJobWrapper" visible="true" anytype="true">
+                </key>
+                <key name="HasSharedFilesystem" visible="true" anytype="true">
+                </key>
+                <key name="JobStorageLocation" visible="true">
+                    <string minArraySize="0" maxArraySize="0" undef="true">
+                    </string>
+                </key>
+                <key name="LicenseNumber" visible="true" anytype="true">
+                </key>
+                <key name="NumWorkers" visible="true" anytype="true">
+                    <double>
+                        <value>32.0</value>
+                    </double>
+                </key>
+                <key name="RcpCommand" visible="true" anytype="true">
+                </key>
+                <key name="RequiresMathWorksHostedLicensing" visible="true" anytype="true">
+                </key>
+                <key name="ResourceTemplate" visible="true" anytype="true">
+                </key>
+                <key name="RshCommand" visible="true" anytype="true">
+                    <string>
+                        <value><![CDATA[pbsdsh -h]]></value>
+                    </string>
+                </key>
+                <key name="SubmitArguments" visible="true" anytype="true">
+                    <string>
+                        <value><![CDATA[-q hpc]]></value>
+                    </string>
+                </key>
+            </settings>
+        </settings>
+    </settings>
+</settings>
